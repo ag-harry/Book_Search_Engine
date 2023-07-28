@@ -56,7 +56,7 @@ const SearchBooks = () => {
         image: book.volumeInfo.imageLinks?.thumbnail || '',
       }));
 
-      const { data } = await saveBook({
+      const { data } = await savedBook({
         variables: { bookData },
       });
 
@@ -80,7 +80,7 @@ const SearchBooks = () => {
     }
 
     try {
-      const response = await saveBook(bookToSave, token);
+      const response = await savedBook(bookToSave, token);
 
       if (!response.ok) {
         throw new Error('something went wrong!');

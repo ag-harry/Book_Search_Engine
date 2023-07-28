@@ -50,15 +50,12 @@ Acceptance Criteria
 ## Installation
 To install the necessary dependencies, run the following command in your terminal:
 
-bash
-
 npm install
 Usage
 To start the application, run the following command in your terminal:
 
-bash
-
 npm start
+
 Contributing
 Contributions are welcome. If you are interested in contributing to this project, please fork the project, make your changes, and open a pull request. For major changes, please open an issue first to discuss what you would like to change.
 
